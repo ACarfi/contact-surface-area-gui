@@ -80,7 +80,7 @@ class FileSelectionWindow(QMainWindow):
 
     def set_app_icon(self):
         icon_dir = os.path.dirname(__file__)
-        icon_path = os.path.join(icon_dir, "logo.png")
+        icon_path = os.path.join(icon_dir, "../resources/logo.png")
         self.setWindowIcon(QIcon(icon_path))
 
     def select_tumor(self):
@@ -261,7 +261,7 @@ class ResultsWindow(QMainWindow):
 
     def set_app_icon(self):
         icon_dir = os.path.dirname(__file__)
-        icon_path = os.path.join(icon_dir, "logo.png")
+        icon_path = os.path.join(icon_dir, "../resources/logo.png")
         self.setWindowIcon(QIcon(icon_path))
 
     def add_title_label(self, title):
