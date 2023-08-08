@@ -8,11 +8,11 @@ The GUI also provides a 3D visualization of the contact surface area (CSA) displ
 
 ### Executable
 
-To use the GUI you must simply download the executable and run it. The graphical user interface will prompt you to input .STL files that contain triangular meshes. The repository includes two sample meshes that you can use to test the software. Here you find the link to the last release:
+To use the GUI you must simply download the executable and run it. The graphical user interface will prompt you to input .STL files that contain triangular meshes. The repository includes two sample meshes that you can use to test the software. The executable as been only tested on Windows 11. Here you find the link to the last release:
 
 https://github.com/ACarfi/contact-surface-area-gui/releases/tag/v.1.0
 
-### Source Code
+### Source code
 
 Alternatively, you could download the source code and execute the "gui.py" script
 
